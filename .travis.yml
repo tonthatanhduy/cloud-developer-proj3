@@ -9,3 +9,4 @@ deploy:
     script: bash deployment/docker/publish.sh
     on:
       branch: main
+      
