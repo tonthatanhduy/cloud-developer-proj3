@@ -7,6 +7,7 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install -f
 ## Bundle app source
+ENV NODE_OPTIONS="--openssl-legacy-provider"
 COPY . .
 RUN ionic build
 ### Run 
