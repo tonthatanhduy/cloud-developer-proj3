@@ -44,7 +44,7 @@ jobs:
             docker push superrynz/udagram-api-feed:v1
             docker push superrynz/udagram-api-user:v1
             docker push superrynz/udagram-frontend:v1
-            docker push superrynz/udagram-frontend:v1
+            docker push superrynz/udagram-reverseproxy:v1
 
 workflows:
   default:
